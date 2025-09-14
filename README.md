@@ -15,6 +15,7 @@ cd Candy-Crash-Terminal
 ```
 Then, compile all the classes:
 ```bash
+cd code
 javac -source 1.8 -target 1.8 *.java
 ```
 Finally, run the program:
