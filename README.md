@@ -1,4 +1,4 @@
-# Candy-Crash-Terminal
+# Candy-Crash-By-Terminal
 
 This was my first personal project, developed for the *Object-Oriented Programming* exam at Univaq.  
 ⚠️ The project is entirely in Italian and features only a **text-based interface** running in the terminal.
