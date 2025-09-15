@@ -13,7 +13,7 @@ The software was deliberately designed using the **object-oriented paradigm** so
 
 Currently, the implementation includes two types of candies:
 
-1) **Normal Candies** (represented by N in the terminal):
+1) **Normal Candies** (represented by symbol 'N' in the terminal):
 
    -  They come in four different colors.
 
@@ -25,9 +25,9 @@ Currently, the implementation includes two types of candies:
 
    - When combined, they trigger specific effects:
 
-     - Row-destroying candy (represented by = in the terminal): destroys the entire row where it is located.
+     - **Row-destroying candy** (represented by symbol '=' in the terminal): destroys the entire row where it is located.
 
-     - Column-destroying candy (represented by | in the terminal): destroys the entire column where it is located.
+     - **Column-destroying candy** (represented by symbol '|' in the terminal): destroys the entire column where it is located.
 
 ## Class Diagram
 <p align="center">
