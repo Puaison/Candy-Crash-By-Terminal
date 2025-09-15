@@ -5,11 +5,11 @@ This was my first personal project, developed for the *Object-Oriented Programmi
 
 ## Project Overview
 
-The aim of this project is to provide a first practical approach to the design of an object-oriented software system, with particular attention to extensibility and future maintenance. In particular, following the MVC (Model–View–Controller) design pattern, we focused exclusively on the Model package and worked on modeling the domain of a game similar to Candy Crush.
+The aim of this project is to provide a first practical approach to the design of an object-oriented software system, with particular attention to **extensibility** and **future maintenance**. In particular, following the MVC (Model–View–Controller) design pattern, we focused exclusively on the **Model package** and worked on modeling the domain of a game similar to Candy Crush.
 
 Candy Crush is a tile-matching puzzle game where the player swaps adjacent candies to form a row or column of at least three candies of the same color. When a match is made, the candies disappear, new ones fall from above, and the player can earn points or trigger special effects.
 
-The software was deliberately designed using the object-oriented paradigm so that new functionalities could be added without modifying the existing code base. For example, introducing a new type of element that has to fit in the "Slots" of the Grid with a new effect would simply require creating a new class that extends the existing "Slot hierarchy", ensuring minimal impact on the rest of the system.
+The software was deliberately designed using the **object-oriented paradigm** so that new functionalities could be added without modifying the existing code base. For example, introducing a new type of element that has to fit in the "Slots" of the Grid with a new effect would simply require creating a new class that extends the existing "Slot hierarchy", ensuring minimal impact on the rest of the system.
 
 Currently, the implementation includes two types of candies:
 
